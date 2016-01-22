@@ -1,0 +1,13 @@
+#%RAML 0.8
+title: Test RAML document
+version: 1.0
+schemas:
+  - Test:  alex-test1.json
+/tests:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            schema: Test1
+            
